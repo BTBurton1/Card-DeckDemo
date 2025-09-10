@@ -41,7 +41,6 @@ deck.Print();
 // Extra: check if the deck is empty
 Console.WriteLine($"\nIs the deck Empty? {deck.Empty}");
 
-
 // -----------
 
 // Declare a new deck variable and create a deck object
@@ -67,20 +66,18 @@ for (int round = 0; round < 2; round++)
 player2.Add(deck.TakeTopCard()!);
 player3.Add(deck.TakeTopCard()!);
 
-
-// Print the cards for player 1
+// Print the cards for Player 1
 Console.WriteLine("\nPlayer 1:");
 foreach (var c in player1) Console.WriteLine($"{c.Rank} of {c.Suit}");
 
-// Print the cards for player 2
+// Print the cards for Player 2
 Console.WriteLine("\nPlayer 2:");
-foreach (var c in player1) Console.WriteLine($"{c.Rank} of {c.Suit}");
+foreach (var c in player2) Console.WriteLine($"{c.Rank} of {c.Suit}");
 
-// Print the cards for player 3
+// Print the cards for Player 3
 Console.WriteLine("\nPlayer 3:");
-foreach (var c in player1) Console.WriteLine($"{c.Rank} of {c.Suit}");
+foreach (var c in player3) Console.WriteLine($"{c.Rank} of {c.Suit}");
 
-// Print the cards for player 4
+// Print the cards for Player 4
 Console.WriteLine("\nPlayer 4:");
-foreach (var c in player1) Console.WriteLine($"{c.Rank} of {c.Suit}");
-foreach (var c in player1) Console.WriteLine($"{c.Rank} of {c.Suit}");
+foreach (var c in player4) Console.WriteLine($"{c.Rank} of {c.Suit}");

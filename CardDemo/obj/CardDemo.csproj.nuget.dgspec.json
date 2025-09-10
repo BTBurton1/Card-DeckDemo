@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bilal\\OneDrive\\Desktop\\CardDeck-Demo\\Card-DeckDemo\\CardDemo\\CardDemo.csproj": {}
+    "C:\\Users\\bilal\\OneDrive\\Desktop\\CodeStuff\\Card-DeckDemo\\CardDemo\\CardDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bilal\\OneDrive\\Desktop\\CardDeck-Demo\\Card-DeckDemo\\CardDemo\\CardDemo.csproj": {
+    "C:\\Users\\bilal\\OneDrive\\Desktop\\CodeStuff\\Card-DeckDemo\\CardDemo\\CardDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bilal\\OneDrive\\Desktop\\CardDeck-Demo\\Card-DeckDemo\\CardDemo\\CardDemo.csproj",
+        "projectUniqueName": "C:\\Users\\bilal\\OneDrive\\Desktop\\CodeStuff\\Card-DeckDemo\\CardDemo\\CardDemo.csproj",
         "projectName": "CardDemo",
-        "projectPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\CardDeck-Demo\\Card-DeckDemo\\CardDemo\\CardDemo.csproj",
+        "projectPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\CodeStuff\\Card-DeckDemo\\CardDemo\\CardDemo.csproj",
         "packagesPath": "C:\\Users\\bilal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\CardDeck-Demo\\Card-DeckDemo\\CardDemo\\obj\\",
+        "outputPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\CodeStuff\\Card-DeckDemo\\CardDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
