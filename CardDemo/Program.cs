@@ -15,16 +15,16 @@ string? input = Console.ReadLine();
 Deck deck = new Deck();
 Console.WriteLine("Created a new deck.\n");
 
-//2: Shuffle the deck
-deck.Shuffle();
-Console.WriteLine("Shuffled the deck.\n");
+// //2: Shuffle the deck
+// deck.Shuffle();
+// Console.WriteLine("Shuffled the deck.\n");
 
-//3: Take the top card and print it
-Card? topCard = deck.TakeTopCard();
-if (topCard != null)
-{
-    Console.WriteLine($"Top card: {topCard.Rank} of {topCard.Suit}\n");
-}
+// //3: Take the top card and print it
+// Card? topCard = deck.TakeTopCard();
+// if (topCard != null)
+// {
+//     Console.WriteLine($"Top card: {topCard.Rank} of {topCard.Suit}\n");
+// }
 
 //4: Attempt to modify the card’s rank (uncomment to see error)
 // topCard.Rank = Rank.Two;
@@ -32,11 +32,13 @@ if (topCard != null)
  * If you uncomment the above, you get:
  * error CS0200: Property or indexer 'Card.Rank' cannot be assigned to -- it is read only
  */
-Console.WriteLine("Step 4: Cannot modify the rank of a Card (compile-time error).\n");
+// Console.WriteLine("Step 4: Cannot modify the rank of a Card (compile-time error).\n");
 
 //5: Print all the cards left in the deck
 Console.WriteLine("Remaining cards in the deck:\n");
 deck.Print();
+
+// Exercise 2 code
 
 // Extra: check if the deck is empty
 Console.WriteLine($"\nIs the deck Empty? {deck.Empty}");
@@ -65,6 +67,8 @@ for (int round = 0; round < 2; round++)
 // Deal 1 more card to players 2 and 3
 player2.Add(deck.TakeTopCard()!);
 player3.Add(deck.TakeTopCard()!);
+
+//Flip feature in progress
 
 // Print the cards for Player 1
 Console.WriteLine("\nPlayer 1:");
